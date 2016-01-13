@@ -1,0 +1,44 @@
+{
+  "name": "coffeeshop",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "author": "https://github.com/n-j-m",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "node ./build.js",
+    "start": "node .",
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "loopback": "^2.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^2.1.0",
+    "loopback-connector-sqlite": "^1.1.0",
+    "loopback-datasource-juggler": "^2.44.0",
+    "serve-favicon": "^2.0.1",
+    "sqlite3": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.1.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-0": "^6.3.13",
+    "css-loader": "^0.23.0",
+    "dotenv": "^1.2.0",
+    "fs-extra": "^0.26.4",
+    "html-webpack-plugin": "^1.6.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.6",
+    "webpack-dev-server": "^1.12.1",
+    "webpack-merge": "^0.3.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "coffeeshop"
+}
